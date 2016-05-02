@@ -1,0 +1,21 @@
+<head>
+  <title>LeafWearables</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+	
+	<div class="container">
+		<div class="login-box">
+			<h1>Leaf Wearables Login</h1>
+			<form method="POST" action="http://localhost:8080/api/authenticate">
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username" class="form-control">
+				<label for="password">Password:</label>
+				<input type="password" id="password" class="form-control" name="password"><br>
+				<button class="btn btn-primary">Login</button>
+			</form>
+		</div>
+	</div>
+</body>
